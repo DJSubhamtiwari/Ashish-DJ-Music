@@ -39,3 +39,16 @@ GitHub Pages can serve the HTML/CSS/JS pages, but it cannot run `api/bookings.js
 
 ## Booking behaviour
 The form opens WhatsApp with a prefilled message. The visitor must press Send in WhatsApp. The database insert is a separate action and only works after the Vercel and Supabase configuration above is complete.
+
+## Add the supplied DJ photos to the homepage
+Upload these six image files into the repository folder `assets/images/` using the exact filenames below. The homepage already references these paths:
+- `ashish-logo-feel.webp` — first white ASHISH / FEEL THE MUSIC logo
+- `ashish-dj-logo.webp` — second DJ ASHISH AI logo
+- `ashish-event-poster.webp` — portrait Ashish Music event poster
+- `ashish-home-stage.webp` — wide blue stage / DJ controller photo (homepage hero)
+- `ashish-booking-promo.webp` — red booking promo artwork
+- `ashish-dj-action.webp` — vertical DJ controller / sunset artwork
+
+On GitHub mobile: open the repository → Code → open `assets` → open `images` → Add file → Upload files → choose the six images, rename each file to the exact filename above before uploading if necessary → Commit changes to `main`. GitHub Pages will rebuild automatically. Until these six image files are uploaded, their homepage image slots will show broken-image placeholders.
+
+Business location and WhatsApp number are configured in `assets/js/config.js`: Indore, Madhya Pradesh, India and 917440209478.
